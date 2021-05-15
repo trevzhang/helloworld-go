@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	str, separate := "",""
-	for _,arg := range os.Args[1:] {
+	str, separate := "", ""
+	for _, arg := range os.Args[1:] {
 		str += separate + arg
 		separate = " "
 	}
