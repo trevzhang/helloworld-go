@@ -11,7 +11,7 @@ func main() {
 	input := bufio.NewScanner(os.Stdin)
 	for input.Scan() {
 		var t string
-		if t = input.Text(); t == "quit"{
+		if t = input.Text(); t == "quit" {
 			break
 		}
 		counts[t]++
