@@ -7,6 +7,8 @@
 
 // Lissajous generates GIF animations of random Lissajous figures.
 // 产生随机利萨如图形的GIF动画
+// go run lissajous.go >out.gif // 输出到gif文件
+// go run lissajous.go web // 输出到web网页
 package main
 
 import (
