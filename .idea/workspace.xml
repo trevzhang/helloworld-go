@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9c91972-ef38-4db3-8e33-0135ae22505a" name="Default Changelist" comment="测试指针">
-      <change afterPath="$PROJECT_DIR$/test/testSlicePointer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testSlice.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/testSliceType.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testSlicePointer.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/testSlicePointer.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
