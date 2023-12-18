@@ -3,11 +3,12 @@ package main
 import (
 	"fmt"
 	"strconv"
+	"time"
 )
 
 func main() {
 	i := 1
-	ch := make(chan string, 2)
+	ch := make(chan string)
 
 	// 启动一个goroutine发送消息到通道
 	go func() {
@@ -20,8 +21,13 @@ func main() {
 		close(ch)
 	}()
 
-	// 使用range关键字迭代通道中的消息
-	for msg := range ch {
-		fmt.Println(msg)
-	}
+	// 启动另一个goroutine接收消息并打印
+	go func() {
+		// 使用range关键字迭代通道中的消息
+		for msg := range ch {
+			fmt.Println(msg)
+		}
+	}()
+
+	time.Sleep(5 * time.Second)
 }
